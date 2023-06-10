@@ -33,4 +33,6 @@ func main() {
 		fmt.Println("ok")
 	}
 
+	tempo := c.GetTrackBpm(ctx, input)
+	fmt.Println(tempo)
 }
